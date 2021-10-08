@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_image_editprofile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profilePicture"
+                android:layout_width="204dp"
+                android:layout_height="107dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/no_photo"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="262dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="@string/prompt_username"
+                android:textSize="12sp"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/profileIcon"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="30dp"
+                    app:srcCompat="@drawable/ic_person_black_24dp" />
+
+                <EditText
+                    android:id="@+id/editTextUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/prompt_username"
+                    android:inputType="textPersonName"
+                    android:textSize="12sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/prompt_email"
+                android:textSize="12sp"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/emailIcon"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="30dp"
+                    app:srcCompat="@drawable/ic_email_black_24dp" />
+
+                <EditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="317dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/email_address"
+                    android:inputType="textPersonName"
+                    android:textSize="12sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/currentPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/current_password"
+                android:textSize="12sp"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/passwordIcon1"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="30dp"
+                    app:srcCompat="@drawable/ic_lock_black_24dp" />
+
+                <EditText
+                    android:id="@+id/editCurrentPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/current_password"
+                    android:inputType="textPassword"
+                    android:textSize="12sp"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/newPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/new_password"
+                android:textSize="12sp"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/passwordIcon2"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="30dp"
+                    app:srcCompat="@drawable/ic_lock_black_24dp" />
+
+                <EditText
+                    android:id="@+id/editTextNewPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/new_password"
+                    android:inputType="textPassword"
+                    android:textSize="12sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/confirmPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/prompt_confirmPassword"
+                android:textSize="12sp"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/passwordIcon3"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="30dp"
+                    app:srcCompat="@drawable/ic_lock_black_24dp" />
+
+                <EditText
+                    android:id="@+id/editTextConfirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/prompt_confirmPassword"
+                    android:inputType="textPassword"
+                    android:textSize="12sp"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/submitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:width="60dp"
+                android:background="@drawable/editbuttonstyle"
+                android:text="@string/submit_changes"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/backBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="70dp"
+                android:width="60dp"
+                android:background="@drawable/logoutbuttonstyle"
+                android:text="@string/Back_btn"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

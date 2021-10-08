@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsFragment"
+    android:id="@+id/layout"
+    android:layout_marginBottom="56dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/helpFeatures"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/help_icon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.98"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.100000024" />
+
+            <RelativeLayout
+                android:id="@+id/requestLayout"
+                android:layout_width="300dp"
+                android:layout_height="126dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/custom_border"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.012">
+
+
+                <EditText
+                    android:id="@+id/addressEditText"
+                    android:layout_width="299dp"
+                    android:layout_height="46dp"
+                    android:layout_above="@+id/helpRequiredEditText"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="-10dp"
+                    android:drawableStart="@drawable/ic_add_location"
+                    android:ems="10"
+                    android:hint="@string/postal_address"
+                    android:inputType="textPostalAddress" />
+
+                <EditText
+                    android:id="@+id/helpRequiredEditText"
+                    android:layout_width="299dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/searchBtn"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="-6dp"
+                    android:drawableStart="@drawable/ic_notifications_active"
+                    android:ems="10"
+                    android:hint="@string/assistance_require"
+                    android:inputType="text" />
+
+                <Button
+                    android:id="@+id/searchBtn"
+                    android:layout_width="96dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="211dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@color/navSelected"
+                    android:text="@string/search"
+                    android:textColor="@color/navNotSelected" />
+
+                <Button
+                    android:id="@+id/sendRequestBtn"
+                    android:layout_width="126dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="89dp"
+                    android:layout_marginEnd="87dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@color/helpReqBtnColor"
+                    android:text="SEND REQUEST"
+                    android:textColor="@color/navNotSelected" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cancelBtnContainer"
+                android:layout_width="86dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.861">
+
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </FrameLayout>
+
+</FrameLayout>

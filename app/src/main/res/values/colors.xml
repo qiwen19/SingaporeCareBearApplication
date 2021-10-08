@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="textColor">#E5EBFF</color>
+    <color name="blueBtn">#2a9df4</color>
+    <color name="navSelected">#1e4072</color>
+    <color name="navNotSelected">#e3e6e8</color>
+    <color name="helpReqBtnColor">#1b601b</color>
+    <!--Login Button-->
+    <color name="signup_pressed">#DD4B39</color>
+    <color name="signup_normal">#B64032</color>
+
+    <color name="signin_pressed">#5A76B1</color>
+    <color name="signin_normal">#516590</color>
+</resources>

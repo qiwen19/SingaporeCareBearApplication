@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">SingaporeCareBear</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_more">More</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_register">Register</string>
+    <string name="prompt_email">          Email</string>
+    <string name="prompt_password">          Password</string>
+    <string name="prompt_confirmPassword">          Confirm Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="helper">Helper</string>
+    <string name="elderly">Elderly</string>
+    <string name="forgetPwdText"><u>Forget Your Password?</u></string>
+    <string name="create_an_account"><u>Create An Account</u></string>
+    <string name="registration">Registration</string>
+    <string name="full_name">          Full Name</string>
+    <string name="prompt_dob">          DD/MM/YYYY</string>
+    <string name="prompt_username">          Username</string>
+    <string name="register">Register</string>
+    <string name="reset_password_title">Reset Password</string>
+    <string name="email_address">          Email Address</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="personal_documents">submit personal document</string>
+    <string name="new_password">New Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="submit_changes">submit changes</string>
+    <string name="Back_btn">BACK</string>
+    <string name="edit_profile">edit profile</string>
+    <string name="select_document">select document</string>
+    <string name="upload">upload</string>
+    <string name="logout_btn">Logout</string>
+    // save preferences
+    <string name="savePrefs">savePrefs</string>
+    <string-array name="menuItems">
+        <item>Profile</item>
+        <item>LeaderBoard</item>
+        <item>Help others</item>
+        <item>Logout</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="assistance_require">Assistance Require</string>
+    <string name="postal_address">Postal Address</string>
+    <string name="search">LOCATE</string>
+    <string name="notification">Notification</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="fcm_message">Message</string>
+
+    // Geofencing error message
+    <string name="geofence_unknown_error">
+    Unknown error: the Geofence service is not available now.
+    </string>
+    <string name="geofence_not_available">
+    Geofence service is not available now. Go to Settings>Location>Mode and choose High accuracy.
+    </string>
+    <string name="geofence_too_many_geofences">
+    Your app has registered too many geofences.
+    </string>
+    <string name="geofence_too_many_pending_intents">
+    You have provided too many PendingIntents to the addGeofences() call.
+    </string>
+
+    <string name="titleMsg"> %s has arrived! </string>
+    <string name="infoMsg"> Look out for %s in the nearby vicinity </string>
+
+    <string name="taskCompletedBtn">Completed</string>
+</resources>

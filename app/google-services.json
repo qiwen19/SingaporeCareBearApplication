@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "561860048936",
+    "firebase_url": "https://singaporecarebear-e9c4e.firebaseio.com",
+    "project_id": "singaporecarebear-e9c4e",
+    "storage_bucket": "singaporecarebear-e9c4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561860048936:android:874c1f2b50587eb58c9d1d",
+        "android_client_info": {
+          "package_name": "com.example.singaporecarebear"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561860048936-ulj49e0a4s3oqm1l3d1r9170sng60n2v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.singaporecarebear",
+            "certificate_hash": "75ff5762d70eb1625ecf710c5de8ee835f7874b3"
+          }
+        },
+        {
+          "client_id": "561860048936-lotqqrp5barfn5tvi6kjioq6hpgbhr6f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.singaporecarebear",
+            "certificate_hash": "f23310306de899b93861818847a8ec50329f4858"
+          }
+        },
+        {
+          "client_id": "561860048936-piuh7v34dus44jfvje69fl4ih80ns6gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS3_fU1H3k2YkDvd7FcB0BIRLPDpl76Dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561860048936-piuh7v34dus44jfvje69fl4ih80ns6gc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
